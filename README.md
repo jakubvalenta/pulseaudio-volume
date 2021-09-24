@@ -1,3 +1,13 @@
+This project has been archived. Use these built-in commands instead:
+
+```
+pactl set-sink-volume @DEFAULT_SINK@ -5%
+pactl set-sink-volume @DEFAULT_SINK@ +5%
+pactl set-sink-mute @DEFAULT_SINK@ toggle
+```
+
+---
+
 # PulseAudio volume
 
 Adjust volume or toggle mute of all running PulseAudio sinks.  Ideal for binding to media keys.
